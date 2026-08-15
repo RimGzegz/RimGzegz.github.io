@@ -58,7 +58,7 @@ url = "https://github.com/RimGzegz"
   [[menu.main]]
     identifier = "Posts"
     name = "Posts"
-    url = "/posts/"
+    url = "/post/"
     weight = 10
 
 [taxonomies]
