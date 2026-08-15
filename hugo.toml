@@ -1,7 +1,10 @@
 baseURL = "https://RimGzegz.github.io/"
+relativeURLs = true
+canonifyURLs = false
+uglyURLs = false
 theme = "risotto"
 title = "Rim's cottage"
-author = "Joe Roe"
+author = "Rim"
 copyright = "© Rim"
 languageCode = "en"
 DefaultContentLanguage = "en"
