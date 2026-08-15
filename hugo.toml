@@ -1,6 +1,5 @@
 baseURL = "https://RimGzegz.github.io/"
-relativeURLs = true
-canonifyURLs = false
+canonifyURLs = true
 uglyURLs = false
 theme = "risotto"
 title = "Rim's cottage"
