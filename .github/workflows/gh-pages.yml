@@ -24,7 +24,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify --baseURL "https://rimgzegz.github.io/"
+        run: hugo --minify --loglevel debug --baseURL "https://rimgzegz.github.io/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
