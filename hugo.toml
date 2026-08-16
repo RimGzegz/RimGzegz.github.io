@@ -54,13 +54,13 @@ url = "https://github.com/RimGzegz"
 #url = "https://orcid.org/0000-0001-2345-6789"
 
 
-#[menu]
+[menu]
 
-#  [[menu.main]]
-#    identifier = "Posts"
-#    name = "Posts"
-#    url = "/post/"
-#    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact/"
+    weight = 10
 
 [taxonomies]
 category = "categories"
