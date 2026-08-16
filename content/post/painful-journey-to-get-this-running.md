@@ -1,7 +1,7 @@
 +++
 date = '2026-08-16T11:52:13+02:00'
 draft = false
-title = 'Painful Journey to Get This Running'
+title = 'Painful journey to get this website running'
 +++
 
 I have been trying to get this website running through github actions with little success.
