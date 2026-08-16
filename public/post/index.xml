@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Homepage on Rim&#39;s cottage</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content in Homepage on Rim&#39;s cottage</description>
+		<title>Posts on Rim&#39;s cottage</title>
+		<link>http://localhost:1313/post/</link>
+		<description>Recent content in Posts on Rim&#39;s cottage</description>
 		<generator>Hugo</generator>
 		<language>en</language>
 		
@@ -14,7 +14,7 @@
 		
 			<lastBuildDate>Sat, 15 Aug 2026 21:35:12 +0200</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Fixing my smb share&#39;s write speeds being stuck at 100Mbps.</title>
 				<link>http://localhost:1313/post/fixing-my-homelabs-write-speeds/</link>

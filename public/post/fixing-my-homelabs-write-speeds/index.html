@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-	<meta name="generator" content="Hugo 0.162.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Homepage &ndash; Rim&#39;s cottage</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Fixing my smb share&#39;s write speeds being stuck at 100Mbps. &ndash; Rim&#39;s cottage</title>
 <meta name="description" content="My personal website for blogs and tutorials.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,12 +27,11 @@
 
 
 
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Rim's cottage">
 
 
 
-<meta property="og:title" content="Homepage &ndash; Rim&#39;s cottage" />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:title" content="Fixing my smb share&#39;s write speeds being stuck at 100Mbps. &ndash; Rim&#39;s cottage" />
+<meta property="og:url" content="http://localhost:1313/post/fixing-my-homelabs-write-speeds/" />
 
   
     <meta property="og:description" content="My personal website for blogs and tutorials."/> 
@@ -50,7 +48,7 @@
       <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Rim&#39;s cottage</a></h1></li>
     
     
-    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/post/" title="Posts">Posts</a></li>
+    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:1313/post/" title="Posts">Posts</a></li>
     
     </ul>
 </nav>
@@ -58,11 +56,17 @@
 </header>
 
             <section class="page__body">
-    <h1 id="hello">Hello</h1>
-<p>I am Rim, I am from poland and I do homelabbing and want to become a system administrator in the future!
-I also like cats :3</p>
-<p><img src="http://localhost:1313/images/cat1.jpg" alt="My cat with a can of Dr. Pepper"></p>
+    <header class="content__header">
+        <h1>Fixing my smb share&rsquo;s write speeds being stuck at 100Mbps.</h1>
+    </header>
+    <div class="content__body">
+        <p>So for few months I had issue that my write and read speeds on smb were capped at 100Mbps, I didn&rsquo;t bother with it as I was in my lazy phase for a while but today I fixed it.</p>
+<p>I spent a while debugging, testing on both the truenas vm and on proxmox, doing drive tests, network tests and much more.</p>
+<p>It turned out my router&rsquo;s 4th port is malfunctioning or is somehow capped at 100Mbps, now that I switched the cable to the 5th port I have a gigabit connection with my smb share.</p>
+<p>Moral of the story, check ports, it might be that easy&hellip;</p>
 
+    </div>
+    <footer class="content__footer"></footer>
 
             </section>
 
@@ -86,6 +90,16 @@ I also like cats :3</p>
 </div>
                 <hr>
                 <div class="aside__content">
+    
+    
+        <p>
+            
+            2026-08-15
+        </p>
+    
+
+    
+
                 </div>
             </section>
 
