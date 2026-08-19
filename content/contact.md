@@ -6,6 +6,6 @@ title = 'Contact'
 
 # You can contact me at
 
-by email: rim-contact.sabbath922@aleeas.com
+by email: contact@rims-cottage.pl
 
 by discord (Unlikely I will accept unless you're in a mutual server or have mutual friends): gzegz_mari143
