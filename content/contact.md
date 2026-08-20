@@ -8,4 +8,6 @@ title = 'Contact'
 
 by email: contact@rims-cottage.pl
 
+by matrix: @rim:chat.rims-cottage.pl
+
 by discord (Unlikely I will accept unless you're in a mutual server or have mutual friends): gzegz_mari143
